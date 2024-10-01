@@ -34,4 +34,28 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+}
+.header{
+    background: rgb(255, 248, 243);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.ji{
+    background: rgb(253, 110, 10);
+    font-size: 20px;
+    border: 0;
+    color: aliceblue;
+}
+.jj{
+    background: rgb(253, 110, 10);
+    font-size: 20px;
+    border: 0;
+    color: aliceblue;
+}
+.img{
+    width: 500px;
 }
