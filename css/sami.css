@@ -86,6 +86,9 @@ nav{
     margin: 130px 0;
 }
 .aa{
+    text-align: center;
+}
+{
     color: black;
     font-size: 35px;
     text-align: center;
@@ -95,4 +98,22 @@ nav{
     color: rgb(255, 0, 0);
     text-align: center;
     font-size: 18px;
+}
+main{
+    max-width:1140px;
+  margin: 0 auto;
+}
+.nn{
+    display: flex;
+    justify-content: space-around;
+}
+.mm, .ashik, .sifat, .mamun{
+    text-align: center;
+}
+.maa{
+    text-align: center;
+}
+.ma{
+    text-align: center;
+    padding: 30px 150px;
 }
