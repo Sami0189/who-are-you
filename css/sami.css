@@ -112,8 +112,51 @@ main{
 }
 .maa{
     text-align: center;
+    font-size:40px;
 }
 .ma{
     text-align: center;
     padding: 30px 150px;
+}
+.alvi{
+    display: flex;
+}
+.simi{
+    border: 2px solid whitesmoke;
+    margin: 3px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.safi{
+    border: 2px solid whitesmoke;
+    margin: 3px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.anik{
+    border: 2px solid whitesmoke;
+    margin: 3px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.hasan{
+    border: 2px solid whitesmoke;
+    margin: 3px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.section{
+    text-align: center;
+    font-size: 40px;
+}
+.master{
+    font-size: 30px;
+}
+.education{
+    font-size: 30px;
+    font-weight: 700;
+}
+.experience{
+    font-size: 30px;
+    font-weight: 700;
 }
