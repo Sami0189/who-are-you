@@ -160,3 +160,58 @@ main{
     font-size: 30px;
     font-weight: 700;
 }
+.class{
+    display: flex;
+    gap: 50px;
+
+}
+.institute, .description{
+    color: rgb(117, 117, 117);
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.class hr{
+    margin: 10px;
+}
+.download{
+   text-align: center;
+   
+}
+.ten{
+    background-color: rgb(255, 153, 0);
+   border: 0px;
+   color: aliceblue;
+   font-size: 40px;
+   border-radius: 5px;
+   font-weight: 600;
+   margin: 30px;
+}
+.car{
+    display: flex;
+    gap: 400px;
+    background: rgb(255, 248, 243);
+}
+.footercolumn{
+    font-weight: 400;
+    font-size: 20px;
+}
+.submit{
+    background-color: rgb(236, 142, 75);
+    border: 0;
+    color:white;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 25px;
+    border-radius: 5px;
+}
+.opu label{
+    display: block;
+    margin: 25px;
+}
+.opu input, textarea{
+    padding: 18px;
+    border: 0px;
+}
