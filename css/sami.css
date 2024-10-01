@@ -38,24 +38,61 @@ nav{
 }
 .header{
     background: rgb(255, 248, 243);
+    background-image:url('../images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .ji{
     background: rgb(253, 110, 10);
     font-size: 20px;
     border: 0;
     color: aliceblue;
+    margin: 5px;
 }
 .jj{
     background: rgb(253, 110, 10);
     font-size: 20px;
     border: 0;
     color: aliceblue;
+    margin: 5px;
 }
 .img{
     width: 500px;
+}
+.i{
+    font-size: 45px;
+    margin: 0;
+}
+.me{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 5px;
+}
+.gg{
+    margin: 0px;
+    width: 500px;
+}
+.hh{
+    padding: 130px;
+    border-radius: 10px;
+ background: bisque;
+    margin: 130px 0;
+}
+.aa{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.ss{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 18px;
 }
