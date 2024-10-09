@@ -1,220 +1,272 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-.font-roboto{
-    font-family: "Roboto", system-ui;
-font-size: 45px;
-font-weight: 800;
-
-  }
-
-nav, ul{
-    display: flex;
-    align-items: center;
-    
+.font-roboto {
+  font-family: "Roboto", system-ui;
+  font-size: 45px;
+  font-weight: 800;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
+
+nav,
+ul {
+  display: flex;
+  align-items: center;
 }
-nav a{
-    text-decoration: none;
-    color: black;
-   
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
 }
 .sami{
-    background: rgb(253, 110, 10);
-    border-radius: 5px;
-    border: 0;
-    font-size: 20px;
-    color: aliceblue;
-    font-weight: 700;
-    padding: 15px 35px;
+  background: rgb(253, 110, 10);
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 700;
+  padding: 15px 35px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
-.header{
-    background: rgb(255, 248, 243);
-    background-image:url('../images/header_bg.png'),
-     url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, top left;
+.header {
+  background: rgb(255, 248, 243);
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
 }
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.ji{
-    background: rgb(253, 110, 10);
-    font-size: 30px;
-    border: 0;
-    color: aliceblue;
-    margin: 15px;
-    border-radius: 10px;
+.ji {
+  background: rgb(253, 110, 10);
+  font-size: 30px;
+  border: 0;
+  color: aliceblue;
+  margin: 15px;
+  border-radius: 10px;
 }
-.jj{
-    background: rgb(253, 110, 10);
-    font-size: 30px;
-    border: 0;
-    color: aliceblue;
-    margin: 15px;
-    border-radius: 10px;
+.jj {
+  background: rgb(253, 110, 10);
+  font-size: 30px;
+  border: 0;
+  color: aliceblue;
+  margin: 15px;
+  border-radius: 10px;
 }
-.img{
-    width: 500px;
+.img {
+  width: 500px;
 }
-.i{
-    font-size: 45px;
-    margin: 0;
+.i {
+  font-size: 45px;
+  margin: 0;
 }
-.me{
-    font-size: 85px;
-    font-style: normal;
-    font-weight: 700;
-    margin: 5px;
+.me {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px;
 }
-.gg{
-    margin: 0px;
-    width: 500px;
+.gg {
+  margin: 0px;
+  width: 500px;
 }
-.hh{
-    padding: 130px;
-    border-radius: 10px;
- background: bisque;
-    margin: 130px 0;
+.hh {
+  padding: 130px;
+  border-radius: 10px;
+  background: bisque;
+  margin: 130px 0;
 }
-.aa{
-    text-align: center;
+.aa {
+  text-align: center;
 }
-{
-    color: black;
-    font-size: 35px;
-    text-align: center;
-    font-weight: 700;
+ {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
 }
-.ss{
-    color: rgb(255, 0, 0);
-    text-align: center;
-    font-size: 18px;
+.ss {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 18px;
 }
-main{
-    max-width:1140px;
+main {
+  max-width: 1140px;
   margin: 0 auto;
 }
-.nn{
+.nn {
+  display: flex;
+  justify-content: space-around;
+}
+.mm,
+.ashik,
+.sifat,
+.mamun {
+  text-align: center;
+}
+.maa {
+  text-align: center;
+  font-size: 40px;
+}
+.ma {
+  text-align: center;
+  padding: 30px 150px;
+}
+.alvi {
+  display: flex;
+}
+.simi {
+  border: 2px solid whitesmoke;
+  margin: 3px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.safi {
+  border: 2px solid whitesmoke;
+  margin: 3px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.anik {
+  border: 2px solid whitesmoke;
+  margin: 3px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.hasan {
+  border: 2px solid whitesmoke;
+  margin: 3px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.section {
+  text-align: center;
+  font-size: 40px;
+}
+.master {
+  font-size: 30px;
+}
+.education {
+  font-size: 30px;
+  font-weight: 700;
+}
+.experience {
+  font-size: 30px;
+  font-weight: 700;
+}
+.class {
+  display: flex;
+  gap: 50px;
+}
+.institute,
+.description {
+  color: rgb(117, 117, 117);
+}
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.class hr {
+  margin: 10px;
+}
+.download {
+  text-align: center;
+}
+.ten {
+  background-color: rgb(255, 153, 0);
+  border: 0px;
+  color: aliceblue;
+  font-size: 40px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 30px;
+}
+.car {
+  display: flex;
+  gap: 400px;
+  background: rgb(255, 248, 243);
+}
+.footercolumn {
+  font-weight: 400;
+  font-size: 20px;
+}
+.submit {
+  background-color: rgb(236, 142, 75);
+  border: 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 25px;
+  border-radius: 5px;
+}
+.opu label {
+  display: block;
+  margin: 25px;
+}
+.opu input,
+textarea {
+  padding: 18px;
+  border: 0px;
+}
+.hide {
+  display: none;
+}
+/* .lion{
     display: flex;
-    justify-content: space-around;
+} */
+@media screen and (max-width: 675px) {
+  .alvi {
+    flex-direction: column;
+  }
 }
-.mm, .ashik, .sifat, .mamun{
-    text-align: center;
+@media screen and (max-width: 675px) {
+  .car {
+    flex-direction: column;
+  }
 }
-.maa{
-    text-align: center;
-    font-size:40px;
+@media screen and (max-width: 675px) {
+  .class {
+    flex-direction: column;
+  }
 }
-.ma{
-    text-align: center;
-    padding: 30px 150px;
-}
-.alvi{
-    display: flex;
-}
-.simi{
-    border: 2px solid whitesmoke;
-    margin: 3px;
-    background-color: aliceblue;
-    padding: 20px;
-}
-.safi{
-    border: 2px solid whitesmoke;
-    margin: 3px;
-    background-color: aliceblue;
-    padding: 20px;
-}
-.anik{
-    border: 2px solid whitesmoke;
-    margin: 3px;
-    background-color: aliceblue;
-    padding: 20px;
-}
-.hasan{
-    border: 2px solid whitesmoke;
-    margin: 3px;
-    background-color: aliceblue;
-    padding: 20px;
-}
-.section{
-    text-align: center;
-    font-size: 40px;
-}
-.master{
-    font-size: 30px;
-}
-.education{
-    font-size: 30px;
-    font-weight: 700;
-}
-.experience{
-    font-size: 30px;
-    font-weight: 700;
-}
-.class{
-    display: flex;
-    gap: 50px;
+@media screen and (max-width: 675px) {
+    .nav, .banner{
+      flex-direction: column;
+    }
+  }
 
-}
-.institute, .description{
-    color: rgb(117, 117, 117);
-}
-.title{
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-.class hr{
-    margin: 10px;
-}
-.download{
-   text-align: center;
-   
-}
-.ten{
-    background-color: rgb(255, 153, 0);
-   border: 0px;
-   color: aliceblue;
-   font-size: 40px;
-   border-radius: 5px;
-   font-weight: 600;
-   margin: 30px;
-}
-.car{
-    display: flex;
-    gap: 400px;
-    background: rgb(255, 248, 243);
-}
-.footercolumn{
-    font-weight: 400;
-    font-size: 20px;
-}
-.submit{
-    background-color: rgb(236, 142, 75);
-    border: 0;
-    color:white;
-    font-size: 30px;
-    font-weight: 300;
-    margin: 25px;
-    border-radius: 5px;
-}
-.opu label{
-    display: block;
-    margin: 25px;
-}
-.opu input, textarea{
-    padding: 18px;
-    border: 0px;
-}
+
+
+
+  @media screen and (min-width: 675px) and (max-width:992px){
+    .alvi {
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 675px) and (max-width:992px){
+    .car {
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 675px) and (max-width:992px){
+    .class {
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 675px) and (max-width:992px){
+      .nav, .banner{
+        flex-direction: column;
+      }
+    }
+  
